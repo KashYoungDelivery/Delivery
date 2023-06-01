@@ -2,7 +2,7 @@
 
 namespace Delivery.Backend.Controllers
 {
-    public class HomeController : Controller
+    public class ClientController : Controller
     {
         public IActionResult Index()
         {
