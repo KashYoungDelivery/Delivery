@@ -2,11 +2,14 @@
 
 namespace Delivery.Backend.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]/[action]")]
     public class AdminController : Controller
     {
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult GetAllData() 
         {
-            
+            return View();
         }
     }
 }

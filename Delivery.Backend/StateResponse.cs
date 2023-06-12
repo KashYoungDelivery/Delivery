@@ -1,4 +1,4 @@
-﻿namespace Delivery.Backend.DTO
+﻿namespace Delivery.Backend
 {
     public class StateResponse<T>
     {
